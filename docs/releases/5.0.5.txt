@@ -23,3 +23,8 @@ Bugfixes
 
 * Allowed importing ``aprefetch_related_objects`` from ``django.db.models``
   (:ticket:`35392`).
+
+:mod:`django.shortcuts`
+~~~~~~~~~~~~~~~~~~~~~~~
+
+* The new :func:`django.shortcuts.make_toast` function returns ``'toast'``.
